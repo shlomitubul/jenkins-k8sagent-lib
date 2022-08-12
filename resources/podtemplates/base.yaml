@@ -11,8 +11,8 @@ spec:
       type: ""
     name: volume-0
   - name: maven-storage
-      persistentVolumeClaim:
-        claimName: m2-pv
+    persistentVolumeClaim:
+      claimName: m2-pv
   containers:
   - name: jnlp
     image: jenkinsci/jnlp-slave:3.29-1
